@@ -1,0 +1,562 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Darwin - 22.6.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is Clang, found in:
+        /Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/3.27.7/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+      clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is Clang, found in:
+        /Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/3.27.7/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-7LuCXI"
+      binary: "/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-7LuCXI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-7LuCXI'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c4636/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c4636.dir/build.make CMakeFiles/cmTC_c4636.dir/build
+        Building C object CMakeFiles/cmTC_c4636.dir/CMakeCCompilerABI.c.o
+        /opt/homebrew/opt/llvm/bin/clang   -arch arm64 -mmacosx-version-min=13.5   -v -Wl,-v -MD -MT CMakeFiles/cmTC_c4636.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c4636.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c4636.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCCompilerABI.c
+        Homebrew clang version 17.0.3
+        Target: arm64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/opt/llvm/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         (in-process)
+         "/opt/homebrew/Cellar/llvm/17.0.3/bin/clang-17" -cc1 -triple arm64-apple-macosx13.5.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-7LuCXI -resource-dir /opt/homebrew/Cellar/llvm/17.0.3/lib/clang/17 -dependency-file CMakeFiles/cmTC_c4636.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_c4636.dir/CMakeCCompilerABI.c.o -sys-header-deps -canonical-system-headers -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk -c-isystem /opt/homebrew/opt/llvm/include -cxx-isystem /opt/homebrew/opt/llvm/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/17.0.3/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include -fdebug-compilation-dir=/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-7LuCXI -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c4636.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 17.0.3 based upon LLVM 17.0.3 default target arm64-apple-darwin22.6.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/opt/llvm/include
+         /opt/homebrew/Cellar/llvm/17.0.3/lib/clang/17/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_c4636
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4636.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm/bin/clang  -arch arm64 -mmacosx-version-min=13.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl,-v CMakeFiles/cmTC_c4636.dir/CMakeCCompilerABI.c.o -o cmTC_c4636 
+        Homebrew clang version 17.0.3
+        Target: arm64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/opt/llvm/bin
+         "/Users/shotaro/opt/anaconda3/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/17.0.3/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.5.0 13.5.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk -o cmTC_c4636 -L/opt/homebrew/opt/llvm/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c4636.dir/CMakeCCompilerABI.c.o -lSystem /opt/homebrew/Cellar/llvm/17.0.3/lib/clang/17/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-530
+        BUILD 07:42:29 Sep  7 2022
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+        Library search paths:
+        	/opt/homebrew/opt/llvm/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks/
+        ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_c4636] Error 1
+        make: *** [cmTC_c4636/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Check for working C compiler: /opt/homebrew/opt/llvm/bin/clang"
+    directories:
+      source: "/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-bxMzTN"
+      binary: "/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-bxMzTN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-bxMzTN'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0a3e7/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0a3e7.dir/build.make CMakeFiles/cmTC_0a3e7.dir/build
+        Building C object CMakeFiles/cmTC_0a3e7.dir/testCCompiler.c.o
+        /opt/homebrew/opt/llvm/bin/clang   -arch arm64 -mmacosx-version-min=13.5 -MD -MT CMakeFiles/cmTC_0a3e7.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_0a3e7.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_0a3e7.dir/testCCompiler.c.o -c /Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-bxMzTN/testCCompiler.c
+        Linking C executable cmTC_0a3e7
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a3e7.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm/bin/clang  -arch arm64 -mmacosx-version-min=13.5 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib  CMakeFiles/cmTC_0a3e7.dir/testCCompiler.c.o -o cmTC_0a3e7 
+        ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_0a3e7] Error 1
+        make: *** [cmTC_0a3e7/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is Clang, found in:
+        /Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/3.27.7/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+      clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is Clang, found in:
+        /Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/3.27.7/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-9x0hos"
+      binary: "/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-9x0hos"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-9x0hos'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_55120/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_55120.dir/build.make CMakeFiles/cmTC_55120.dir/build
+        Building C object CMakeFiles/cmTC_55120.dir/CMakeCCompilerABI.c.o
+        /opt/homebrew/opt/llvm/bin/clang   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_55120.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_55120.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_55120.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCCompilerABI.c
+        Homebrew clang version 17.0.3
+        Target: arm64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/opt/llvm/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         (in-process)
+         "/opt/homebrew/Cellar/llvm/17.0.3/bin/clang-17" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=14.0 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-9x0hos -resource-dir /opt/homebrew/Cellar/llvm/17.0.3/lib/clang/17 -dependency-file CMakeFiles/cmTC_55120.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_55120.dir/CMakeCCompilerABI.c.o -sys-header-deps -canonical-system-headers -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -c-isystem /opt/homebrew/opt/llvm/include -cxx-isystem /opt/homebrew/opt/llvm/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/17.0.3/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -fdebug-compilation-dir=/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-9x0hos -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_55120.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 17.0.3 based upon LLVM 17.0.3 default target arm64-apple-darwin22.6.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/opt/llvm/include
+         /opt/homebrew/Cellar/llvm/17.0.3/lib/clang/17/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_55120
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55120.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm/bin/clang  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl,-v CMakeFiles/cmTC_55120.dir/CMakeCCompilerABI.c.o -o cmTC_55120 
+        Homebrew clang version 17.0.3
+        Target: arm64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/opt/llvm/bin
+         "/Users/shotaro/opt/anaconda3/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/17.0.3/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk -o cmTC_55120 -L/opt/homebrew/opt/llvm/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_55120.dir/CMakeCCompilerABI.c.o -lSystem /opt/homebrew/Cellar/llvm/17.0.3/lib/clang/17/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-530
+        BUILD 07:42:29 Sep  7 2022
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+        Library search paths:
+        	/opt/homebrew/opt/llvm/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks/
+        ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_55120] Error 1
+        make: *** [cmTC_55120/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Check for working C compiler: /opt/homebrew/opt/llvm/bin/clang"
+    directories:
+      source: "/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-uNF9iP"
+      binary: "/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-uNF9iP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-uNF9iP'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_db884/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_db884.dir/build.make CMakeFiles/cmTC_db884.dir/build
+        Building C object CMakeFiles/cmTC_db884.dir/testCCompiler.c.o
+        /opt/homebrew/opt/llvm/bin/clang   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_db884.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_db884.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_db884.dir/testCCompiler.c.o -c /Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-uNF9iP/testCCompiler.c
+        Linking C executable cmTC_db884
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db884.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm/bin/clang  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib  CMakeFiles/cmTC_db884.dir/testCCompiler.c.o -o cmTC_db884 
+        ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_db884] Error 1
+        make: *** [cmTC_db884/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is Clang, found in:
+        /Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/3.27.7/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+      clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is Clang, found in:
+        /Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/3.27.7/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-q6SCVu"
+      binary: "/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-q6SCVu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-q6SCVu'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a2717/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a2717.dir/build.make CMakeFiles/cmTC_a2717.dir/build
+        Building C object CMakeFiles/cmTC_a2717.dir/CMakeCCompilerABI.c.o
+        /opt/homebrew/opt/llvm/bin/clang   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_a2717.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a2717.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a2717.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCCompilerABI.c
+        Homebrew clang version 17.0.3
+        Target: arm64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/opt/llvm/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         (in-process)
+         "/opt/homebrew/Cellar/llvm/17.0.3/bin/clang-17" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=14.0 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-q6SCVu -resource-dir /opt/homebrew/Cellar/llvm/17.0.3/lib/clang/17 -dependency-file CMakeFiles/cmTC_a2717.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a2717.dir/CMakeCCompilerABI.c.o -sys-header-deps -canonical-system-headers -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -c-isystem /opt/homebrew/opt/llvm/include -cxx-isystem /opt/homebrew/opt/llvm/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/17.0.3/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -fdebug-compilation-dir=/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-q6SCVu -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a2717.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 17.0.3 based upon LLVM 17.0.3 default target arm64-apple-darwin22.6.0
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/opt/llvm/include
+         /opt/homebrew/Cellar/llvm/17.0.3/lib/clang/17/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_a2717
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2717.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm/bin/clang  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl,-v CMakeFiles/cmTC_a2717.dir/CMakeCCompilerABI.c.o -o cmTC_a2717 
+        Homebrew clang version 17.0.3
+        Target: arm64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/opt/llvm/bin
+         "/Users/shotaro/opt/anaconda3/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/17.0.3/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk -o cmTC_a2717 -L/opt/homebrew/opt/llvm/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a2717.dir/CMakeCCompilerABI.c.o -lSystem /opt/homebrew/Cellar/llvm/17.0.3/lib/clang/17/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-530
+        BUILD 07:42:29 Sep  7 2022
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+        Library search paths:
+        	/opt/homebrew/opt/llvm/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks/
+        ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_a2717] Error 1
+        make: *** [cmTC_a2717/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Check for working C compiler: /opt/homebrew/opt/llvm/bin/clang"
+    directories:
+      source: "/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-GUTJZG"
+      binary: "/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-GUTJZG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: "arm64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-GUTJZG'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a2320/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a2320.dir/build.make CMakeFiles/cmTC_a2320.dir/build
+        Building C object CMakeFiles/cmTC_a2320.dir/testCCompiler.c.o
+        /opt/homebrew/opt/llvm/bin/clang   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_a2320.dir/testCCompiler.c.o -MF CMakeFiles/cmTC_a2320.dir/testCCompiler.c.o.d -o CMakeFiles/cmTC_a2320.dir/testCCompiler.c.o -c /Users/shotaro/PycharmProjects/OpenSfM/cmake_build/CMakeFiles/CMakeScratch/TryCompile-GUTJZG/testCCompiler.c
+        Linking C executable cmTC_a2320
+        /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2320.dir/link.txt --verbose=1
+        /opt/homebrew/opt/llvm/bin/clang  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib  CMakeFiles/cmTC_a2320.dir/testCCompiler.c.o -o cmTC_a2320 
+        ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_a2320] Error 1
+        make: *** [cmTC_a2320/fast] Error 2
+        
+      exitCode: 2
+...
